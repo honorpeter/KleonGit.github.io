@@ -185,8 +185,8 @@ th {
 }
 body {
   position: relative;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 h1,
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -1129,9 +1129,9 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Times New Roman', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1219,7 +1219,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1237,7 +1237,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -1497,7 +1497,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffad5d;
+  background: #f1ffaf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2703,9 +2703,6 @@ hr {
 .use-motion .logo-line-after i {
   right: -100%;
 }
-.site-subtitle {
-  display: none;
-}
 .site-nav-toggle {
   position: static;
   float: right;
@@ -2808,7 +2805,7 @@ hr {
 }
 @media (max-width: 767px) {
   .posts-expand .post-body {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .posts-expand .post-body img {
@@ -2834,7 +2831,7 @@ hr {
 }
 .post-button a {
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
   background: none;
   border: none;
   border-bottom: 2px solid #666;
@@ -2842,12 +2839,12 @@ hr {
 }
 @media (max-width: 767px) {
   .post-button a {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (min-width: 1600px) {
   .post-button a {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .post-button a:hover {
@@ -2916,4 +2913,80 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.site-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  line-height: 35px;
+  letter-spacing: -3px;
+}
+.site-meta .site-title {
+  font-size: 50px;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+.menu {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+.menu .menu-item a {
+  font-size: 18px;
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 150px;
+  bottom: 0px;
+  width: 0;
+/* z-index: 1040; */
+  box-shadow: inset 0 0px 0px #000;
+  background: rgba(0,0,0,0);
+/* -webkit-transform: translateZ(0); */
+}
+.logo-line-before i,
+.logo-line-after i {
+  position: relative;
+  display: block;
+  height: 0px;
+  background: #222;
+}
+.header {
+  background: #f3f3f3;
+}
+.site-author-name {
+  margin: 5px 0 0;
+  text-align: center;
+  color: #0f0f0f;
+  font-weight: bold;
+}
+.site-state-item-count {
+  display: block;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+.site-state-item-name {
+  font-size: 13px;
+  color: #000;
+}
+.sidebar-inner {
+  position: relative;
+  padding: 20px 10px;
+  color: #000;
+  text-align: center;
+}
+.menu .menu-item a:hover {
+  border-bottom-color: #030303;
+}
+.post-toc ol a {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
+  color: #5f5f5f;
+  border-bottom-color: rgba(0,0,0,0);
 }
