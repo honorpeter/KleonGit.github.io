@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[防止出错]]></title>
+    <url>%2F2018%2F12%2Ftest%2F</url>
+    <content type="text"><![CDATA[防止Category出错。]]></content>
+      <categories>
+        <category>A</category>
+      </categories>
+      <tags>
+        <tag>A</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[博客事记]]></title>
     <url>%2F2018%2F11%2Fhello%2F</url>
     <content type="text"><![CDATA[2018-11-20 博客上线]]></content>
-      <categories>
-        <category>N/A</category>
-      </categories>
-      <tags>
-        <tag>N/A</tag>
-      </tags>
   </entry>
 </search>
