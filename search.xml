@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Markdown Test]]></title>
+    <title><![CDATA[博客事记]]></title>
     <url>%2F2018%2F11%2Fhello%2F</url>
-    <content type="text"><![CDATA[Markdown 测试文件 $A = B + C$ 一级标题二级标题三级标题四级标题五级标题六级标题 这是第一级引用。 这是第二级引用。 现在回到第一级引用。 require 'redcarpet'markdown = Redcarpet.new("Hello World!")puts markdown.to_html 往下就没有了。]]></content>
+    <content type="text"><![CDATA[$$ H_{y’}(y)=-\sum_{i}y’_{i}{\cdot}log(y_i)$$ !!! note 搭建了博客！]]></content>
       <categories>
         <category>N/A</category>
       </categories>
