@@ -294,19 +294,19 @@ body {
 }
 .article-entry h1,
 .widget h1 {
-  font-size: 25px;
+  font-size: 21px;
 }
 .article-entry h2,
 .widget h2 {
-  font-size: 23px;
+  font-size: 20px;
 }
 .article-entry h3,
 .widget h3 {
-  font-size: 20px;
+  font-size: 19px;
 }
 .article-entry h4,
 .widget h4 {
-  font-size: 17px;
+  font-size: 18px;
 }
 .article-entry h5,
 .widget h5 {
@@ -513,7 +513,8 @@ a.article-title:hover {
   margin: 1.1em 0;
 }
 .article-entry a {
-  color: color-link;
+  color: #16171b;
+  font-weight: bold;
   text-decoration: none;
 }
 .article-entry a:hover {
