@@ -123,7 +123,7 @@ body {
 }
 body {
   background: #fff;
-  font: 14px Arial, Helvetica, sans-serif, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei;
+  font: 16px Arial, Helvetica, sans-serif, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
 }
@@ -214,9 +214,9 @@ body {
   transform: scale(1.4, 3.2);
 }
 .outer {
-  max-width: 1098px;
+  max-width: 1073.3px;
   margin: 40px auto;
-  padding: 0 30px;
+  padding: 0 29px;
 }
 .outer:before,
 .outer:after {
@@ -229,8 +229,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.19101123595506%;
-  margin: 0 1.404494382022472%;
+  width: 97.22302020492197%;
+  margin: 0 1.388489897539021%;
 }
 .left,
 .alignleft {
@@ -267,8 +267,8 @@ body {
   #main {
     display: inline;
     float: left;
-    width: 64.60674157303372%;
-    margin: 0 1.404494382022472%;
+    width: 64.45465862300107%;
+    margin: 0 1.388489897539021%;
   }
 }
 .archive-year,
@@ -298,15 +298,15 @@ body {
 }
 .article-entry h2,
 .widget h2 {
-  font-size: 20px;
+  font-size: 19px;
 }
 .article-entry h3,
 .widget h3 {
-  font-size: 19px;
+  font-size: 18px;
 }
 .article-entry h4,
 .widget h4 {
-  font-size: 18px;
+  font-size: 17px;
 }
 .article-entry h5,
 .widget h5 {
@@ -365,7 +365,7 @@ body {
 .article-entry dl,
 .widget dl {
   margin: 0 20px;
-  line-height: 1.6em;
+  line-height: 1.8em;
 }
 .article-entry ul ul,
 .widget ul ul,
@@ -468,7 +468,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: #555;
-  line-height: 1.1em;
+  line-height: 1.2em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
@@ -492,8 +492,9 @@ a.article-title:hover {
 }
 .article-entry p,
 .article-entry table {
-  line-height: 1.6em;
-  margin: 1.6em 0;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  margin: 1.8em 0;
 }
 .article-entry h1,
 .article-entry h2,
@@ -509,8 +510,8 @@ a.article-title:hover {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  line-height: 1.1em;
-  margin: 1.1em 0;
+  line-height: 1.2em;
+  margin: 1.2em 0;
 }
 .article-entry a {
   color: #16171b;
@@ -524,8 +525,8 @@ a.article-title:hover {
 .article-entry ul,
 .article-entry ol,
 .article-entry dl {
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
+  margin-top: 1.8em;
+  margin-bottom: 1.8em;
 }
 .article-entry img,
 .article-entry video {
@@ -572,11 +573,11 @@ a.article-title:hover {
   margin-top: -1.5em;
 }
 .article-entry blockquote p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .article-entry blockquote footer {
-  font-size: 14px;
-  margin: 1.6em 0;
+  font-size: 16px;
+  margin: 1.8em 0;
   font-family: -apple-system, "Arial", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 .article-entry blockquote footer cite:before {
@@ -663,9 +664,9 @@ a.article-title:hover {
 }
 .article-footer {
   font-size: 0.85em;
-  line-height: 1.6em;
+  line-height: 1.8em;
   border-top: 1px solid #e6e6e6;
-  padding-top: 1.6em;
+  padding-top: 1.8em;
   margin: 0 20px 20px;
 }
 .article-footer:before,
@@ -795,7 +796,7 @@ a.article-title:hover {
 }
 .article-nav-title {
   font-size: 0.85em;
-  line-height: 1.6em;
+  line-height: 1.8em;
   margin-top: 0.5em;
 }
 .article-share-box {
@@ -1116,7 +1117,7 @@ a.article-title:hover {
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
   transition: color 0.2s;
-  line-height: 1.6em;
+  line-height: 1.8em;
   border-left: 1px solid #16171b;
   padding-left: 15px;
 }
@@ -1573,8 +1574,8 @@ pre .javascript .function {
   #sidebar {
     display: inline;
     float: left;
-    width: 29.775280898876407%;
-    margin: 0 1.404494382022472%;
+    width: 29.991381786842865%;
+    margin: 0 1.388489897539021%;
   }
 }
 @media screen and (max-width: 479px) {
@@ -1640,7 +1641,7 @@ pre .javascript .function {
   color: #ff2828;
 }
 .widget {
-  line-height: 1.6em;
+  line-height: 1.8em;
   word-wrap: break-word;
   font-size: 0.9em;
 }
@@ -1693,7 +1694,7 @@ pre .javascript .function {
   text-decoration: none;
   font-weight: bold;
   color: #555;
-  line-height: 1.1em;
+  line-height: 1.5em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;

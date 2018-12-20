@@ -54,6 +54,9 @@ h6 {
 	font-size: 1rem;
 	}
 
+figcaption {
+	display: none;
+}
 
 /* Links */
 a {
@@ -562,8 +565,8 @@ object {
 	float: left;
 	width: 250px;
 	height: auto;
-	margin: 20px 20px 20px 20px;
-	border: 5px solid #e6e6e6;
+	margin: 5px 20px 5px 0px;
+	border: 0px solid #e6e6e6;
 	}
 .single-thumbnail {
 	margin-bottom: 20px;
